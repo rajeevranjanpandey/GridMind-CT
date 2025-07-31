@@ -4,18 +4,18 @@
 
 ---
 
-## 🧠 What is GridMind-CT?
+##  What is GridMind-CT?
 
 **GridMind-CT** is a novel AI system designed to apply **transformer-based causal reasoning** to the **Indian power grid**. It aims to support grid operators, researchers, and planners with:
 
-- 🧩 **Causal analysis** of grid disturbances  
-- ⚡ **Real-time decision suggestions** for control actions  
-- 📉 **Simulation-integrated forecasting** and counterfactual reasoning  
-- 🧠 **Explainable transformer-based architecture** trained on power system data
+-  **Causal analysis** of grid disturbances  
+-  **Real-time decision suggestions** for control actions  
+-  **Simulation-integrated forecasting** and counterfactual reasoning  
+-  **Explainable transformer-based architecture** trained on power system data
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - **Causal Transformer**: Learns cause-effect relationships from PMU/SCADA logs and events.
 - **Multi-Modal Input**: Supports numerical signals, text logs, and grid topology.
@@ -25,5 +25,5 @@
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
