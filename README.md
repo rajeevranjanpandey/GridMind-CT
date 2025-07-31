@@ -1,34 +1,31 @@
 gridmind-ct/
 │
-├── data/
-│   ├── raw/                  # Raw SCADA/PMU/log data
-│   ├── processed/            # Cleaned + structured data
-│   └── topology/             # Grid structure (e.g., buses, lines, admittance matrix)
-│
+├── data/                  # Not committed (add to .gitignore)
 ├── models/
-│   ├── transformer.py        # Causal transformer architecture
-│   ├── causal_layer.py       # Custom causal reasoning layers
-│   └── train.py              # Training loop and loss functions
+│   ├── transformer.py
+│   ├── causal_layer.py
+│   └── train.py
 │
 ├── simulation/
-│   ├── sim_interface.py      # Interface to pandapower or PyPSA
-│   └── grid_scenarios.py     # Simulated grid events (faults, tripping, etc.)
+│   ├── sim_interface.py
+│   └── grid_scenarios.py
 │
 ├── inference/
-│   ├── explain.py            # Reasoning and explanations from attention maps
-│   └── counterfactual.py     # What-if simulations
+│   ├── explain.py
+│   └── counterfactual.py
 │
 ├── utils/
-│   ├── preprocessing.py      # Data cleaning, normalization
-│   ├── graph_utils.py        # Causal graph construction
-│   └── logger.py             # Logging and monitoring
+│   ├── preprocessing.py
+│   ├── graph_utils.py
+│   └── logger.py
 │
 ├── notebooks/
-│   └── analysis.ipynb        # For visualizations, early prototyping
+│   └── analysis.ipynb
 │
 ├── configs/
-│   ├── model_config.yaml     # Transformer size, layers, etc.
-│   └── train_config.yaml     # Epochs, learning rate, batch size
+│   ├── model_config.yaml
+│   └── train_config.yaml
 │
-├── requirements.txt          # All dependencies
+├── .gitignore
+├── requirements.txt
 └── README.md
