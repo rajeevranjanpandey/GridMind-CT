@@ -118,8 +118,9 @@ The current release of GridMind-CT focuses on foundational model architecture, c
 GridMind-CT is a collaborative research initiative. The following individuals have contributed to its development:
 
 ### Core Contributor
-- **Ganesh Kumar Pandey** – Project Lead, Model Architect, Power Systems Research  
-  *Indian Institute of Technology Kharagpur, India *  
+- **Rajeev Ranjan Pandey** – Project Lead, Model Architect
+  Researcher 
+  Indian Institute of Technology Kharagpur, India 
   Email: ganeshpandey.ee@gmail.com
 
 
