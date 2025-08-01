@@ -70,6 +70,49 @@ GridMind-CT can be applied in:
 - Intelligent control planning and dispatch
 
 ---
+## Future Plans
+
+The current release of GridMind-CT focuses on foundational model architecture, causal reasoning, and integration with basic simulation pipelines. In the near future, we plan to expand its capabilities in the following directions:
+
+### 1. Fine-Tuning with Real Indian Grid Data
+- Integrate synthetic SCADA/PMU datasets and anonymized open grid logs.
+- Apply domain-specific tuning for various Indian regional grids (e.g., NR, ER, SR, WR, NER).
+
+### 2. Multi-Agent Reasoning
+- Enable the model to simulate interactions between regional control centers.
+- Extend causal graphs to capture inter-zone propagation and coordination mechanisms.
+
+### 3. Reinforcement Learning Integration
+- Test GridMind-CT as a decision-policy module in RL environments for tasks such as:
+  - Grid restoration  
+  - Dynamic reconfiguration  
+  - Load shedding under constraints
+
+### 4. Real-Time Deployment Feasibility
+- Reduce model inference latency for possible deployment in SCADA control centers or digital substations.
+
+### 5. Visualization Dashboard
+- Develop a web-based dashboard to visualize:
+  - Attention maps
+  - Causal flows between grid elements
+  - Counterfactual event trees
+  - Live grid states mapped geographically
+
+### 6. Human-in-the-Loop Simulation
+- Simulate human operator feedback and integrate corrective signals into model training for improved generalization and robustness.
+
+---
+
+## Version Roadmap
+
+| Version   | Status       | Description                                                                 |
+|-----------|--------------|-----------------------------------------------------------------------------|
+| v0.1.0    | In Progress  | Causal transformer prototype, training pipeline, and basic simulation logic |
+| v0.2.0    | Planned      | Add support for counterfactual generation, causal visualization, explanations|
+| v0.3.0    | Planned      | Extend simulation to multi-region grid behavior and graph refinement        |
+| v0.4.0    | Planned      | Integrate reinforcement learning modules and multi-agent reasoning support  |
+| v1.0.0    | Target       | Research-ready release with benchmarked results and publication-grade output |
+
 
 ## Project Structure
 
