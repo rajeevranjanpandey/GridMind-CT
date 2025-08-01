@@ -119,9 +119,9 @@ GridMind-CT is a collaborative research initiative. The following individuals ha
 
 ### Core Contributor
 - **Rajeev Ranjan Pandey** – Project Lead, Model Architect
-  Researcher 
+  *Researcher *
   Indian Institute of Technology Kharagpur, India 
-  Email: ganeshpandey.ee@gmail.com
+  Email: rajeevr.kgp@gmail.com
 
 
 
