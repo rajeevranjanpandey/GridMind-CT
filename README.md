@@ -36,7 +36,7 @@ Electric power grids, especially large-scale ones like India’s, face challenge
 A custom transformer architecture designed to not only learn correlations but also model **causal dependencies** between power system variables, events, and actions.
 
 ### 2. Multi-Modal Inputs
-Supports various forms of data including:
+Supports various forms of data, including:
 
 - PMU and SCADA time-series measurements  
 - Event logs and alarms  
@@ -72,7 +72,7 @@ GridMind-CT can be applied in:
 ---
 ## Future Plans
 
-The current release of GridMind-CT focuses on foundational model architecture, causal reasoning, and integration with basic simulation pipelines. In the near future, we plan to expand its capabilities in the following directions:
+The current release of GridMind-CT focuses on foundational model architecture, causal reasoning, and integration with basic simulation pipelines. Shortly, we plan to expand our capabilities in the following directions:
 
 ### 1. Fine-Tuning with Real Indian Grid Data
 - Integrate synthetic SCADA/PMU datasets and anonymized open grid logs.
@@ -112,6 +112,27 @@ The current release of GridMind-CT focuses on foundational model architecture, c
 | v0.3.0    | Planned      | Extend simulation to multi-region grid behavior and graph refinement        |
 | v0.4.0    | Planned      | Integrate reinforcement learning modules and multi-agent reasoning support  |
 | v1.0.0    | Target       | Research-ready release with benchmarked results and publication-grade output |
+
+## Contributors
+
+GridMind-CT is a collaborative research initiative. The following individuals have contributed to its development:
+
+### Core Contributor
+- **Ganesh Kumar Pandey** – Project Lead, Model Architect, Power Systems Research  
+  *Indian Institute of Technology Kharagpur, India *  
+  Email: ganeshpandey.ee@gmail.com
+
+
+
+### External Contributions
+We welcome external contributions from researchers, engineers, and open-source contributors. To get involved:
+
+- Fork the repository  
+- Make your changes in a feature branch  
+- Submit a pull request with a clear description of your changes  
+
+Please refer to the `CONTRIBUTING.md` file (coming soon) for contribution guidelines.
+
 
 
 ## Project Structure
